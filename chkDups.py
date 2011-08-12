@@ -84,8 +84,7 @@ if __name__ == '__main__' :
 
     del newList
 
-    for key, value in myDict.items():
-     cmpDict[key]=value
+    cmpDict = myDict.copy()
 
     for cmpName,name_and_ver in myDict.items() :
 
